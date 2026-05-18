@@ -18,6 +18,8 @@ main{
     text-align: center;
     padding: 0;
     margin-bottom: var(--spacing500);
+    margin-inline: auto;
+    max-width: 512px;
 }
 .header-container,
 .card-title{
@@ -37,6 +39,7 @@ main{
     padding: var(--spacing400);
     box-shadow: 0 15px 30px -11px rgb(131, 166, 210);
     margin-bottom: var(--spacing400);
+    margin-inline: auto;
 }
 img{
     margin-top: var(--spacing400);
