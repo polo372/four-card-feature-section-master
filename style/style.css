@@ -2,3 +2,10 @@
 @import 'typo.css';
 @import 'variable.css';
 @layer reset, variable, typo;
+
+html,body{
+    height: 100vh;
+}
+main{
+    height: calc(100% - footer);
+}
