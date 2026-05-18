@@ -7,11 +7,12 @@ html,body{
     height: 100vh;
     background-color: var(--white-color);
 }
+/* 100% - la hauteur du footer pour éviter d'avoir une barre de défilement verticale */
 main{
     height: calc(100% - footer);
+    margin: var(--spacing500);
 }
 .header-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: var(--grey500-color);
+    text-align: center;
 }
