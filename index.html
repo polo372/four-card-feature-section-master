@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preload" href="./style/font/Poppins-ExtraLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./style/font/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./style/font/Poppins-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./style/style.css">
   <title>Frontend Mentor | Four card feature section</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -14,26 +17,26 @@
 </head>
 <body>
   <main>
-    <header class="header-text">
-      <h1>Reliable, efficient delivery<br><span class="strong">Powered by Technology</span></h1>
-      <p class="header-p">Our Artificial Intelligence powered tools use millions of project data points 
+    <header class="header-container">
+      <h1 class="text-preset2">Reliable, efficient delivery<br><span class="text-preset1">Powered by Technology</span></h1>
+      <p class="header-p text-preset4">Our Artificial Intelligence powered tools use millions of project data points 
     to ensure that your project is successful</p>
     </header>
     <article class="green-card">
-      <h2 class="green-card-title">Supervisor</h2>
-      <p class="green-card-p">Monitors activity to identify project roadblocks</p>
+      <h2 class="green-card-title text-preset3">Supervisor</h2>
+      <p class="green-card-p text-preset5">Monitors activity to identify project roadblocks</p>
     </article>
     <article class="red-card">
-      <h2 class="red-card-title">Team Builder</h2>
-      <p class="red-card-p">Scans our talent network to create the optimal team for your project</p>
+      <h2 class="red-card-title text-preset3">Team Builder</h2>
+      <p class="red-card-p text-preset5">Scans our talent network to create the optimal team for your project</p>
     </article>
     <article class="yellow-card-card">
-      <h2 class="yellow-card-card-title">Karma</h2>
-      <p class="yellow-card-card-p">Regularly evaluates our talent to ensure quality</p>
+      <h2 class="yellow-card-card-title text-preset3">Karma</h2>
+      <p class="yellow-card-card-p text-preset5">Regularly evaluates our talent to ensure quality</p>
     </article>
     <article class="blue-card">
-      <h2 class="blue-card-title">Calculator</h2>
-      <p class="blue-card-p">Uses data from past projects to provide better delivery estimates</p>
+      <h2 class="blue-card-title text-preset3">Calculator</h2>
+      <p class="blue-card-p text-preset5">Uses data from past projects to provide better delivery estimates</p>
     </article>  
   </main>
   <footer class="attribution">

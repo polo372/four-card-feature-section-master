@@ -5,7 +5,13 @@
 
 html,body{
     height: 100vh;
+    background-color: var(--white-color);
 }
 main{
     height: calc(100% - footer);
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

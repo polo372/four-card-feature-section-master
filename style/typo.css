@@ -1,6 +1,63 @@
-/* - Font size: 15px
+@font-face {
+    font-family: 'Poppins extralight';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url('./font/Poppins-ExtraLight.woff2') format('woff2');
+}
 
-### Fonts
+@font-face {
+    font-family: 'Poppins regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./font/Poppins-Regular.woff2') format('woff2');
+}
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 200, 400, 600 */
+@font-face {
+    font-family: 'Poppins semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('./font/Poppins-SemiBold.woff2') format('woff2');
+}
+
+.text-preset1,
+.text-preset3 {
+    font-family: 'Poppins semibold', sans-serif;
+}
+.text-preset2 {
+    font-family: 'Poppins extralight', sans-serif;
+    font-weight: 200;
+}
+.text-preset4,
+.text-preset5{
+    font-family: 'Poppins regular', sans-serif;
+}
+.text-preset1,
+.text-preset2{
+    font-size: 1.5rem;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+.text-preset3{
+    font-size: 1.25rem;
+    line-height: 135%;
+    letter-spacing: 0px;   
+}
+.text-preset4{
+    font-size: 0.9375rem;
+    line-height: 140%;
+    letter-spacing: 0px; 
+}
+.text-preset5{
+    font-size: 0.8125rem;
+    line-height: 160%;
+    letter-spacing: 0px; 
+}
+@media (min-width: 740px){
+.text-preset1,
+.text-preset2{
+    font-size: 2.25rem;
+}
+}
