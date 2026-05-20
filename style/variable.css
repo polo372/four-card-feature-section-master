@@ -1,4 +1,5 @@
 :root{
+    /* wrapper color */
     --red-color: hsl(0, 78%, 62%);
     --cyan-color: hsl(180, 62%, 55%);
     --yellow-color: hsl(34, 97%, 64%);
@@ -14,5 +15,3 @@
     --spacing200: 16px;
     --spacing100: 8px;
 }
-
-/*  */

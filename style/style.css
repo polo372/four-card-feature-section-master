@@ -1,7 +1,9 @@
 @import 'reset.css';
 @import 'typo.css';
+@import 'component.css';
 @import 'variable.css';
-@layer reset, variable, typo;
+@import 'responsive.css';
+@layer reset, variable, typo, component, responsive;
 
 html,body{
     height: 100vh;
@@ -9,10 +11,12 @@ html,body{
     margin: 0;
     padding: 0;
 }
-/* 100% - la hauteur du footer pour éviter d'avoir une barre de défilement verticale */
 main{
-    height: calc(100% - footer);
-    margin: var(--spacing400);
+    margin: calc(var(--spacing500) + 1rem) var(--spacing400);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 .header-container{
     text-align: center;
@@ -25,25 +29,8 @@ main{
 .card-title{
     color: var(--grey500-color);
 }
-.card-p{
-    color: var(--grey400-color);
-}
 .header-title,
 .header-p{
     margin-bottom: var(--spacing200);
 }
-.card{
-    width: 314px;
-    height: 250px;
-    border-radius: 8px;
-    padding: var(--spacing400);
-    box-shadow: 0 15px 30px -11px rgb(131, 166, 210);
-    margin-bottom: var(--spacing400);
-    margin-inline: auto;
-}
-img{
-    margin-top: var(--spacing400);
-    position: relative;
-    margin-right: 0;
-    margin-left: auto;
-}
+

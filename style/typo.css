@@ -55,9 +55,3 @@
     line-height: 160%;
     letter-spacing: 0px; 
 }
-@media (min-width: 740px){
-.text-preset1,
-.text-preset2{
-    font-size: 2.25rem;
-}
-}
