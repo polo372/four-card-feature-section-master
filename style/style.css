@@ -2,8 +2,6 @@
 @import 'variable.css';
 @import 'typo.css';
 @import 'component.css';
-@import 'responsive.css';
-/* @layer reset, variable, typo, component, responsive; */
 
 html,body{
     height: 100vh;
