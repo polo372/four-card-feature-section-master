@@ -44,7 +44,7 @@ main{
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(4, 1fr);
         gap: var(--spacing400);
-        margin-top: 4px;
+        /* margin-top: 4px; */
     }
     .red{
         grid-area: 1 / 2 / 2 / 4;
@@ -67,9 +67,9 @@ main{
     }
 }
 @media (min-width: 1440px){
-    main{
+    /* main{
         margin: 25px;
-    }
+    } */
     .card_conteneur{
         margin-top: var(--spacing200);
         grid-template-columns: repeat(3, 314px);
